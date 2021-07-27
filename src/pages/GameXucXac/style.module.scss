@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Pony";
+    src: url("../../assets/fonts/Pony.ttf");
+}
+
+.game {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    font-family: "Pony";
+    text-align: center;
+    h1 {
+        letter-spacing: 0.5rem;
+        text-transform: uppercase;
+    }
+    .btn_control {
+        font-size: 1.5rem;
+        max-width: 100%;
+        width: 200px;
+        height: 100px;
+    }
+    .btn_play {
+        font-size: 1.5rem;
+        max-width: 100%;
+        width: 200px;
+    }
+}
