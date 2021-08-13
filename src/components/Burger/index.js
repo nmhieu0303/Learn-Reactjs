@@ -18,7 +18,6 @@ function Burger(props) {
     }
 
     const renderMenu = () => {
-        console.log(`price`, prices)
         return Object.entries(prices)?.map(([propsPrice,price],index) => {
             return (
             <tr key={index}>

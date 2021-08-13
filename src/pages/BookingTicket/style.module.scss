@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'fontGame';
+    src: url('../../assets/fonts/Pony.ttf');
+}
+
+.bookingMovie {
+    font-family: 'fontGame';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    .bg_layout {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        h1 {
+            margin: 1rem 0;
+            letter-spacing: 0.5rem;
+        }
+        .screen {
+            border-bottom: 20px solid #ff9f5f;
+            border-left: 30px solid transparent;
+            border-right: 30px solid transparent;
+            width: 50%;
+            margin: 0 auto;
+            filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+            font-size: 25px;
+            color: #fff;
+        }
+    }
+}

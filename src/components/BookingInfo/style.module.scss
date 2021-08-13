@@ -1,0 +1,40 @@
+.group_list {
+    list-style: none;
+    margin: 20px 0;
+    .group_item {
+        display: flex;
+        align-items: center;
+        color: #fff;
+        margin: 15px 0;
+        .ghe {
+            border: 3px solid orange;
+            width: 35px;
+            height: 35px;
+            font-size: 12px;
+            margin-right: 10px;
+            border-radius: 5px;
+            cursor: no-drop !important;
+        }
+        .gheDuocChon {
+            background: orange;
+        }
+        .gheDangChon {
+            background: rgb(109, 238, 109);
+            border: 3px solid rgb(109, 238, 109);
+        }
+    }
+}
+
+table {
+    letter-spacing: 0.1rem;
+    th {
+        font-size: 1.2rem;
+    }
+    tbody {
+        max-height: 50vh!important;
+        overflow-x: scroll;
+        td {
+            font-size: 0.9rem;
+        }
+    }
+}

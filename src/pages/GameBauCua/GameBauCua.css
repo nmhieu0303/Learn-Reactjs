@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Pony';
+    src: url('../../assets/fonts/Pony.ttf');
+}
+
+#gameBauCua {
+    font-family: 'Pony';
+    min-width: 100%;
+    min-height: 100vh;
+    background: rgb(247, 227, 51);
+}

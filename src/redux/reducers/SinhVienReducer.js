@@ -8,7 +8,6 @@ export const SinhVienReducer = (state = initialState, action) => {
         const dsSV = state.dsSV;
         dsSV.push(action.sv);
         state.dsSV = [...dsSV];
-        console.log(`state.dsSV`, state.dsSV)
         return { ...state }
 
     default:

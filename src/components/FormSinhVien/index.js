@@ -116,7 +116,6 @@ function FromSinhVien(props) {
 const mapDispatchToProps = (dispatch) => {
     return {
         themSV: (sv) => {
-            console.log(`sv`, sv)
             dispatch({
                 type: 'THEM_SV',
                 sv
